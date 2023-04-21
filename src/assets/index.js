@@ -21,11 +21,13 @@ import redux from './tech/redux.png';
 import tailwind from './tech/tailwind.png';
 import typescript from './tech/typescript.png';
 import graphql from './tech/graphql.png';
+import python from './tech/python.png';
 import threejs from './tech/threejs.svg';
 
 import gamehub from './gamehub.png';
 import oldportfolio from './oldportfolio.png';
 import usmanified from './usmanified.png';
+import construction from './construction.jpg';
 
 export {
 	logo,
@@ -34,12 +36,15 @@ export {
 	mobile,
 	web,
 	github,
+	link,
 	menu,
 	close,
 	css,
 	docker,
 	figma,
 	git,
+	graphql,
+	python,
 	html,
 	javascript,
 	mongodb,
@@ -52,6 +57,5 @@ export {
 	gamehub,
 	oldportfolio,
 	usmanified,
-	graphql,
-	link,
+	construction,
 };

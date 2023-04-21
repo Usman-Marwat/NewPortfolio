@@ -9,6 +9,8 @@ import {
 	css,
 	reactjs,
 	redux,
+	graphql,
+	python,
 	tailwind,
 	nodejs,
 	mongodb,
@@ -18,7 +20,7 @@ import {
 	gamehub,
 	oldportfolio,
 	usmanified,
-	graphql,
+	construction,
 } from '../assets';
 
 export const navLinks = [
@@ -99,8 +101,8 @@ const technologies = [
 		icon: git,
 	},
 	{
-		name: 'figma',
-		icon: figma,
+		name: 'python',
+		icon: python,
 	},
 	{
 		name: 'docker',
@@ -110,59 +112,81 @@ const technologies = [
 
 const projects = [
 	{
-		name: 'Car Rent',
+		name: 'Game Hub',
 		description:
-			'Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.',
+			'It is a video game database and discovery platform that allows users to track their video game collection, discover new games, and connect with other gamers. ',
 		tags: [
 			{
 				name: 'react',
 				color: 'blue-text-gradient',
 			},
 			{
-				name: 'mongodb',
+				name: 'Chakra UI',
 				color: 'green-text-gradient',
 			},
 			{
-				name: 'tailwind',
+				name: 'Zustand',
 				color: 'pink-text-gradient',
 			},
 		],
 		image: gamehub,
-		source_code_link: 'https://github.com/',
+		source_code_link: 'https://game-hub-beta.vercel.app/',
 	},
 	{
-		name: 'Job IT',
+		name: 'Smart Construction (FYP)',
 		description:
-			'Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.',
+			'A Mobile app where people can design contract for their house construction and contractors can bid. Material suppliers can build their online shops and manage supply chains.',
 		tags: [
 			{
-				name: 'react',
+				name: 'reactNative',
 				color: 'blue-text-gradient',
 			},
 			{
-				name: 'restapi',
+				name: 'Node',
 				color: 'green-text-gradient',
 			},
 			{
-				name: 'scss',
+				name: 'mongodb',
+				color: 'pink-text-gradient',
+			},
+			{
+				name: 'Python/Ml',
+				color: 'pink-text-gradient',
+			},
+		],
+		image: construction,
+		source_code_link:
+			'https://github.com/Usman-Marwat/SmartConstructionContractor-FrontEnd',
+	},
+	{
+		name: 'Old Portfolio',
+		description:
+			'My old portfolio build with basic frontend tools and with any libraries. Rationale was to revise the plain old vanilla Javascript concepts.',
+		tags: [
+			{
+				name: 'html',
+				color: 'blue-text-gradient',
+			},
+			{
+				name: 'css',
+				color: 'green-text-gradient',
+			},
+			{
+				name: 'javascript',
 				color: 'pink-text-gradient',
 			},
 		],
 		image: oldportfolio,
-		source_code_link: 'https://github.com/',
+		source_code_link: 'https://old-portfolio-ruddy.vercel.app/',
 	},
 	{
-		name: 'Trip Guide',
+		name: 'Cloud Hosting',
 		description:
-			'A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.',
+			'Home page of an imaginary cloud hosting service. The rationale was to revise the basic front end concepts',
 		tags: [
 			{
-				name: 'nextjs',
+				name: 'html',
 				color: 'blue-text-gradient',
-			},
-			{
-				name: 'supabase',
-				color: 'green-text-gradient',
 			},
 			{
 				name: 'css',
@@ -170,7 +194,7 @@ const projects = [
 			},
 		],
 		image: usmanified,
-		source_code_link: 'https://github.com/',
+		source_code_link: 'https://usmanified.netlify.app/',
 	},
 ];
 
