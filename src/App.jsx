@@ -13,6 +13,7 @@ import {
 } from './components';
 
 const App = () => {
+	console.log(import.meta.env);
 	return (
 		<BrowserRouter>
 			<div className="relative z-0 bg-primary">
