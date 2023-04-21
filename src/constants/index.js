@@ -22,7 +22,7 @@ import {
 	carrent,
 	jobit,
 	tripguide,
-	threejs,
+	graphql,
 } from '../assets';
 
 export const navLinks = [
@@ -54,12 +54,16 @@ const services = [
 		icon: backend,
 	},
 	{
-		title: 'Content Creator',
+		title: 'AI Enthusiast',
 		icon: creator,
 	},
 ];
 
 const technologies = [
+	{
+		name: 'JavaScript',
+		icon: javascript,
+	},
 	{
 		name: 'HTML 5',
 		icon: html,
@@ -68,37 +72,31 @@ const technologies = [
 		name: 'CSS 3',
 		icon: css,
 	},
-	{
-		name: 'JavaScript',
-		icon: javascript,
-	},
-	{
-		name: 'TypeScript',
-		icon: typescript,
-	},
+
 	{
 		name: 'React JS',
 		icon: reactjs,
-	},
-	{
-		name: 'Redux Toolkit',
-		icon: redux,
-	},
-	{
-		name: 'Tailwind CSS',
-		icon: tailwind,
 	},
 	{
 		name: 'Node JS',
 		icon: nodejs,
 	},
 	{
+		name: 'TypeScript',
+		icon: typescript,
+	},
+	{
 		name: 'MongoDB',
 		icon: mongodb,
 	},
+
 	{
-		name: 'Three JS',
-		icon: threejs,
+		name: 'Redux Toolkit',
+		icon: redux,
+	},
+	{
+		name: 'Graph Ql',
+		icon: graphql,
 	},
 	{
 		name: 'git',
